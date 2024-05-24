@@ -1,3 +1,12 @@
+// Get a reference to the button element
+var touchButton = document.getElementById("touch");
+
+// Add a click event listener to the button
+touchButton.addEventListener("click", function() {
+    // Redirect to the contact page
+    window.location.href = "contact.html";
+});
+
 var typed = new Typed('#element', {
     strings: ['Software Developer', 'Coder', 'Final Year Student', 'Web Developer.'],
     typeSpeed: 70,
